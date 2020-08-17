@@ -16,6 +16,10 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    DevcampViewToolMam::Renderer.copyright 'Jordan Hudgens', 'All rights reserved'
+  end
+
   def nav_items
     [
       {
